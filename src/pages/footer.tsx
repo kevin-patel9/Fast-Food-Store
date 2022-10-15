@@ -3,7 +3,6 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer-policy">
         <p>Privacy Policy</p>
-        <p>Contact Us</p>
         <p>Terms & Condition</p>
         <p>Cookie Settings</p>
       </div>
