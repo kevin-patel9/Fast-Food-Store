@@ -19,7 +19,7 @@ export const FoodNavbar = () => {
       <Navbar className="navbar" bg="warning" expand="lg px-3" variant="light">
         <Container>
           <Navbar.Brand href="/">
-            <h3>Fast-Food</h3>
+            <h3>Quick Eats</h3>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar" />
           <Navbar.Collapse id="navbar" className="justify-content-lg-end">
