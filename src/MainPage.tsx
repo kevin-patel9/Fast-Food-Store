@@ -10,7 +10,6 @@ import { Shakes } from "./FoodPage/ShakesPage";
 import { FoodNavbar } from "./pages/Navbar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Footer } from "./pages/footer";
 
 function App() {
   return (

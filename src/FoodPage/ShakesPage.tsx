@@ -18,7 +18,7 @@ export const Shakes = () => {
 
         return (
           <div key={id} className="burger-container">
-            <div>
+            <div style={{ alignSelf: "center"}}>
               <img src={img} />
               <h3>{title}</h3>
               <p>$ {price}</p>

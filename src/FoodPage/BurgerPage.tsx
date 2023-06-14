@@ -2,8 +2,8 @@ import { burgerMenu, Menu } from "../Menu";
 import { Button } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../CartReducer/Slice";
-import vegIcon from "./FoodTypeIcon/vegIcon.png";
-import nonVegIcon from "./FoodTypeIcon/non-vegIcon.png";
+import vegIcon from "../assets/vegIcon.png";
+import nonVegIcon from "../assets/non-vegIcon.png";
 import { Footer } from "../pages/footer";
 
 export const BurgerPage = () => {
@@ -47,10 +47,10 @@ export const BurgerPage = () => {
                   />
                 </div>
               )}
-              <div>
+              <div style={{ alignSelf: "center"}}>
                 <img src={img} />
                 <h4>{title}</h4>
-                <p>$ {price}</p>
+                <p>${" "}{price}</p>
                 <Button variant="warning" onClick={() => handleAddToCart(food)}>
                   Add To Cart
                 </Button>
